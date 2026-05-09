@@ -86,6 +86,19 @@ export default function Dashboard() {
       </nav>
 
       <div className="max-w-5xl mx-auto px-8 py-10">
+        {/* Start Session Button */}
+<div className="bg-gradient-to-r from-[#4F6EF7]/20 to-[#7C3AED]/20 rounded-2xl border border-[#4F6EF7]/30 p-6 mb-6 flex justify-between items-center">
+  <div>
+    <h3 className="text-xl font-bold mb-1">جاهز تدرس؟ 🎯</h3>
+    <p className="text-gray-400 text-sm">ابدأ جلسة Pomodoro الآن</p>
+  </div>
+  <button
+    onClick={() => router.push('/session')}
+    className="bg-[#4F6EF7] text-white px-6 py-3 rounded-xl font-bold hover:bg-[#3d5ce0] transition"
+  >
+    ابدأ الدراسة ←
+  </button>
+</div>
 
         {/* Welcome */}
         <div className="mb-10">
