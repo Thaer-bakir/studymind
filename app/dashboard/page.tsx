@@ -99,6 +99,19 @@ export default function Dashboard() {
     ابدأ الدراسة ←
   </button>
 </div>
+{/* AI Advisor Button */}
+<div className="bg-gradient-to-r from-[#7C3AED]/20 to-[#4F6EF7]/20 rounded-2xl border border-[#7C3AED]/30 p-6 mb-6 flex justify-between items-center">
+  <div>
+    <h3 className="text-xl font-bold mb-1">مستشارك الذكي 🤖</h3>
+    <p className="text-gray-400 text-sm">اسأل AI عن أي شي يخص دراستك</p>
+  </div>
+  <button
+    onClick={() => router.push('/advisor')}
+    className="bg-[#7C3AED] text-white px-6 py-3 rounded-xl font-bold hover:bg-[#6d28d9] transition"
+  >
+    تحدث مع AI ←
+  </button>
+</div>
 
         {/* Welcome */}
         <div className="mb-10">
